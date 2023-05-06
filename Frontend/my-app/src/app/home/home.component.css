@@ -1,0 +1,366 @@
+mat-label,.brow,input[type="submit"],a,.reverse {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-danger:focus
+{
+  background-color:#dc3545 ;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+input.btn.btn-danger.mr-3.text-white:hover{
+    background-color: #ab3f44;
+}
+
+button.btn.btn-danger.ng-star-inserted:hover{
+  background-color: #ab3f44;
+}
+
+input.btn.btn-danger.text-white:hover{
+  background-color: #ab3f44;
+
+}
+
+button.btn.btn-primary.text-white:hover{
+   background-color: #2b5fc5;
+}
+
+button.btn.btn-primary.ng-star-inserted:hover{
+  background-color: #2b5fc5;
+}
+
+button#close_button:hover{
+  background-color: #2e2e34;
+}
+
+.btn-primary:focus
+{
+  background-color:#0D6EFC ;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-danger
+{
+  background-color:#dc3545 ;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
+.btn-primary
+{
+  background-color:#0D6EFC ;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-dark {
+  background-color:black ;
+  outline: none !important;
+  box-shadow: none !important;
+
+
+}
+
+/* Search Form */
+
+.search_form {
+  width: 550px;
+  padding: 25px;
+  margin: auto;
+  border: 1px solid #b3b3b3;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+.search_form h3{
+    font-weight: 500;
+}
+
+.dropdown{
+  width: 43%;
+}
+
+#autolocation {
+  width: auto !important;
+}
+
+input[type="checkbox"] {
+  vertical-align: top;
+  position: relative;
+  margin: 0;
+  margin-right: 10px;
+  height: 18px;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+#keyword {
+  float: left;
+  position: relative;
+  border: 1px solid #b3b3b3;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+  background: white;
+}
+
+mat-form-field {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+#distance, #location, .search_form select {
+  float: left;
+  position: relative;
+  margin: 8px 0px;
+  margin-bottom: 10px;
+  border: 1px solid #b3b3b3;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+  background: white;
+}
+
+.form-group.dropdown {
+  margin-bottom: 0;
+}
+
+input:disabled {
+  background: #EAEBF1 !important;
+}
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-flex, .mat-form-field-appearance-outline .mat-form-field-infix {
+  border: none !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix, ::ng-deep .mat-form-field-appearance-outline .mat-form-field-wrapper {
+  border: none !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  outline: none !important;
+}
+
+.mat-form-field-appearance-outline {
+  width: 100% !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline.mat-form-field-disabled, ::ng-deep .mat-form-field-outline {
+  opacity: 0;
+}
+
+input:focus {
+  outline-color: blue;
+}
+
+/* Business Table */
+
+.nodata {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  text-align:center;
+  border-radius:25px;
+  color:red;
+}
+
+table {
+  width: 85%;
+  margin: auto;
+  border-collapse: collapse;
+  border-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+  vertical-align: top;
+}
+
+tr, th {
+  border-bottom: 1px solid #ddddde;
+}
+
+#first_row {
+  background-color: white;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+tr:last-child {
+  border-bottom: 0px !important;
+}
+
+/* Restaurant Details */
+
+.b_details {
+  background-color: white;
+  border: white;
+  margin: auto;
+  width: 52%;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.b_details label{
+  font-size: 16px;
+}
+
+::ng-deep .mat-tab-list .mat-tab-labels {
+  background-color: #ffd73f !important;
+  justify-content: center;
+}
+
+::ng-deep .mat-tab-list .mat-tab-labels:hover {
+  background-color: #ffd73f;
+}
+
+#details {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow-x: hidden;
+}
+
+#details p {
+  margin: 8px 0px 20px;
+}
+
+.social {
+  background: none;
+  border: none;
+}
+
+button.btn.btn-danger {
+  color: white;
+}
+
+.carousel-item img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.my-google-map {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+/*Reviews*/
+
+#reviews {
+  padding: 10px;
+}
+
+#reviews:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+#reviews p {
+  margin-bottom: 0px !important;
+}
+
+#reviews:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/*Reservation form*/
+
+#time,
+#time-min {
+  width: 100px;
+}
+
+#staticBackdrop h3{
+  font-weight: 500;
+}
+
+.form-control.ng-valid {
+  background-image: none;
+  padding-right: 0.75rem;
+  border: 1px solid #ced4da;
+}
+
+.form-control:valid:focus {
+  border: 1px solid #ced4da;
+}
+
+
+
+
+/* Mobile Version */
+@media screen and (max-width: 768px) {
+  .search_form,
+  table,
+  .b_details {
+    width: 91%;
+  }
+
+  .dropdown{
+    width: 90%;
+  }
+  
+
+  table {
+    font-size: 12px !important;
+    border-radius: 20px;
+  }
+
+  table th {
+    vertical-align: bottom;
+    height: 50px !important;
+  }
+
+  table td img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  ::ng-deep button.mat-ripple.mat-tab-header-pagination {
+    background: #ffd73f !important; 
+  }
+
+  #time, #time-min {
+  width: 60px;
+}
+  
+
+}

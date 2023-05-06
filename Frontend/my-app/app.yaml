@@ -1,0 +1,18 @@
+runtime: nodejs16 
+
+instance_class: F2
+
+env_variables: 
+  BUCKET_NAME: "webtech8frontend"
+
+handlers : 
+- url : /
+  static_files : dist/my-app/index.html
+  upload : dist/my-app/index.html
+
+- url : / 
+  static_dir : dist/my-app 
+
+
+
+

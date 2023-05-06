@@ -1,0 +1,75 @@
+table
+{
+  background: white;
+  width:55%;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+td a:hover
+{
+    color:#a6a6a6;
+}
+
+table th
+{
+    color:black;
+    text-align:center;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+
+table td
+{
+    text-align:center;
+    vertical-align:top;
+    padding:10px;
+    height: 40px;
+}
+
+table .bookings:hover{
+    background-color: #F2F2F2;
+}
+
+th, tr {
+  border-bottom: 1px solid  #f3eded;
+}
+
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+tr:last-child
+{
+  border-bottom: 0px !important;
+}
+
+.deleteicon
+{
+  background: none;
+  border: none;
+}
+
+
+@media screen and (max-width:768px){
+
+  table
+  {    
+    overflow-x: auto;
+    display: block;
+    margin: auto;
+    width: 96%;
+    
+  }
+   
+}

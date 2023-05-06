@@ -1,0 +1,25 @@
+<div id="res_table" *ngIf="bookings !=null && bookings.length>0">
+    <h2 class="text-center">List of your reservations</h2>
+    <table>
+        <tr *ngIf="bookings.length>0">
+          <th>#</th>
+          <th>Business Name</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>E-mail</th>
+          <th> </th>
+       </tr>
+       
+       <tr class="bookings" *ngFor="let b of bookings; let i = index" >
+        <td><b>{{i+1}}</b></td>
+        <td>{{b.b_name}}</td>
+        <td>{{b.date}}</td>
+        <td>{{b.time}}:{{b.time_min}}</td>
+        <td>{{b.email}}</td>
+        <td> <button type ="button" class="deleteicon" (click)="b_Delete(i)"><i class="bi bi-trash" style="font-size:18px"></i> </button></td>
+    </tr>
+    </table>
+
+</div>
+<br><br>
+<h2 *ngIf="bookings==null || bookings.length==0" class="text-center text-danger">No reservations to show</h2>
